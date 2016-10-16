@@ -12,7 +12,8 @@ namespace Beaver.Migrations
                 c => new
                     {
                         Id = c.Int(nullable: false, identity: true),
-                        Title = c.String(),
+                        Name = c.String(),
+                        Issue = c.String(),
                         Description = c.String(),
                         Genre = c.Int(nullable: false),
                     })

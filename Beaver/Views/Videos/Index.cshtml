@@ -6,7 +6,7 @@
 <ul>
     @foreach (var video in Model)
     {
-        <li>@video.Title (@video.Genre) 
+        <li>@video.Issue (@video.Genre) 
             @Html.ActionLink("Edit","Edit", new { id = video.Id }) |
      </li>  @Html.ActionLink("Close", "Delete",new { id = video.Id })
     }

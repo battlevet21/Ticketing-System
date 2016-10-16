@@ -51,7 +51,7 @@ namespace Beaver.Controllers
             if (videoInDb == null)
                 return HttpNotFound();
 
-            videoInDb.Title = video.Title;
+            videoInDb.Name = video.Name;
             videoInDb.Description = video.Description;
             videoInDb.Genre = video.Genre;
             _dbContext.SaveChanges();
