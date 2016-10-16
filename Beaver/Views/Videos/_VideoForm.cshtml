@@ -5,18 +5,25 @@
 </div>
 
 <div class="form-group">
-    @Html.LabelFor(m=>m.Issue)
-    @Html.TextBoxFor(m=>m.Name, new {@class="form-Control"})
-</div>
-<div class="form-group">
-    @Html.LabelFor(m => m.Description)
-    @Html.TextBoxFor(m => m.Description, new { @class = "form-control", rows = 4 })
+    @Html.LabelFor(m => m.PhoneNumber)
+    @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
 </div>
 
 <div class="form-group">
-    @Html.LabelFor(m => m.Genre)
-    @Html.EnumDropDownListFor(m => m.Genre, new { @class = "form-control" })
+    @Html.LabelFor(m=>m.Email)
+    @Html.TextBoxFor(m=>m.Email, new { @class = "form-control" })
 </div>
+
+<div class="form-group">
+    @Html.LabelFor(m=>m.Issue)
+    @Html.TextBoxFor(m=>m.Name, new {@class="form-control"})
+</div>
+<div class="form-group">
+    @Html.LabelFor(m => m.Description)
+    @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = 4 })
+</div>
+
+
 @Html.HiddenFor(m=>m.Id)
 <input type="submit" class="btn btn-primary" value"Save" />
 

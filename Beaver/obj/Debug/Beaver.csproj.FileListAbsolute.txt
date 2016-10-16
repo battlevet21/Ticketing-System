@@ -83,3 +83,4 @@ C:\Users\Alex\Documents\Visual Studio 2015\Project Same Names\Beaver\Beaver\bin\
 C:\Users\Alex\Documents\Visual Studio 2015\Project Same Names\Beaver\Beaver\obj\Debug\Beaver.Migrations.InitialCreate.resources
 C:\Users\Alex\Documents\Visual Studio 2015\Project Same Names\Beaver\Beaver\obj\Debug\Beaver.csproj.GenerateResource.Cache
 C:\Users\Alex\Documents\Visual Studio 2015\Project Same Names\Beaver\Beaver\obj\Debug\Beaver.Migrations.AddVideosTable.resources
+C:\Users\Alex\Documents\Visual Studio 2015\Project Same Names\Beaver\Beaver\obj\Debug\Beaver.Migrations.String.resources

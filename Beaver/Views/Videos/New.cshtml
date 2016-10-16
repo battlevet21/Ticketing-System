@@ -1,4 +1,5 @@
 ﻿@model Beaver.Models.Video
+<h2>New</h2>
 @using (Html.BeginForm("Add", "Videos", FormMethod.Post, new { @class = "form" }))
 {
     Html.RenderPartial("_VideoForm");
@@ -8,5 +9,5 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>New</h2>
+
 

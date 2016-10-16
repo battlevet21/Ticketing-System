@@ -1,4 +1,6 @@
-﻿using Microsoft.Owin;
+﻿using System;
+using System.Linq;
+using Microsoft.Owin;
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(Beaver.Startup))]

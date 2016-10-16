@@ -28,7 +28,7 @@ namespace Beaver.Controllers
             return View();
         }
 
-        public ActionResult Add(Video video)
+        public ActionResult Add(Models.Video video)
         {
             _dbContext.Videos.Add(video);
             _dbContext.SaveChanges();
@@ -53,7 +53,6 @@ namespace Beaver.Controllers
 
             videoInDb.Name = video.Name;
             videoInDb.Description = video.Description;
-            videoInDb.Genre = video.Genre;
             _dbContext.SaveChanges();
 
             return RedirectToAction("Index");

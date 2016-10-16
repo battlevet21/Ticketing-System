@@ -15,7 +15,7 @@ namespace Beaver.Migrations
                         Name = c.String(),
                         Issue = c.String(),
                         Description = c.String(),
-                        Genre = c.Int(nullable: false),
+                        
                     })
                 .PrimaryKey(t => t.Id);
             

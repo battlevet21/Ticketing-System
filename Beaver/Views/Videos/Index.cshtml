@@ -1,12 +1,12 @@
 ﻿@model IEnumerable<Beaver.Models.Video>
 <h2>Tickets</h2>
 <p>
-    @Html.ActionLink("Add Video", "New")
+    @Html.ActionLink("Create Ticket", "New")
 </p>
 <ul>
     @foreach (var video in Model)
     {
-        <li>@video.Issue (@video.Genre) 
+        <li>@video.Issue (@video.Issue) 
             @Html.ActionLink("Edit","Edit", new { id = video.Id }) |
      </li>  @Html.ActionLink("Close", "Delete",new { id = video.Id })
     }
