@@ -19,12 +19,12 @@
                 </button>
                 @Html.ActionLink("SWEET", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+            @*<div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Tickets", "Index", "Videos/Index")</li>
                     <li>@Html.ActionLink("New Ticket", "About", "Videos/New")</li>
                     
-                </ul>
+                </ul>*@
                 @Html.Partial("_LoginPartial")
             </div>
         </div>

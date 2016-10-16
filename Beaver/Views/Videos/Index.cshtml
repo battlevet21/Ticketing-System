@@ -6,9 +6,11 @@
 <ul>
     @foreach (var video in Model)
     {
-        <li>@video.Issue (@video.Issue) 
-            @Html.ActionLink("Edit","Edit", new { id = video.Id }) |
-     </li>  @Html.ActionLink("Close", "Delete",new { id = video.Id })
+        <li>
+            @video.Issue (@video.Issue)
+            @Html.ActionLink("Edit", "Edit", new { id = video.Id }) |
+            @Html.ActionLink("Close", "Delete", new { id = video.Id })
+        </li>
     }
 </ul>
 @{
