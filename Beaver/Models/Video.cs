@@ -13,6 +13,6 @@ namespace Beaver.Models
         public string Name { get; set; }
         public string Issue { get; set; }
         public string Description { get; set; }
-
+        public string Date { get; set; }
     }
 }
