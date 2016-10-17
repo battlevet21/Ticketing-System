@@ -9,7 +9,7 @@ namespace Beaver.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
             ContextKey = "Beaver.Models.ApplicationDbContext";
         }
 
